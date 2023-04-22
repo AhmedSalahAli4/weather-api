@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title> My Weather Api</title>
+</head>
+<body>
+    <!-- nav bar -->
+
+    <nav class="navbar navbar-expand-lg p-4 ">
+        <div class="container ">
+                <img id="im"  src="img/3333.png" alt="images"> 
+                <small class="text-white ms-2 "> Weather</small>           
+                <small id="about" class="text-white "> this is a web site to make you updated for 3 days for Weather</small>           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mt-2">
+                    <li class="nav-item sss ">
+                        <a class="nav-link active disabled " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">news</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact me</a>
+                    </li>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end here -->
+<!-- first input -->
+        <div class="container ">
+            <div class="row">
+                <div class="col-11 offset-1 opacity-75 ">
+                    <div class="contact mt-5 ">
+                        <div class="box ">
+                            <form class="text-end d-flex ">
+                                <input type="text" id="inputsearch"class="form-control border-0 form-control-lg rounded-pill inp text-white bg-dark " placeholder="Find your location">
+                                <button type="button" class="btn bttn p-2 px-4  rounded-pill bg-info ms-3">Find</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- end input -->
+
+            <div class="row  py-5 text-center mt-5  " id="the">
+                <div class="col-sm-4 bg-dark text-white rounded-4 asd" id="current">
+
+                </div>
+                <div class="col-md-8 bg-dark  text-white rounded-4 ">
+                    <div class="row" id="forcast">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        <!-- footer section -->
+        <footer class="site-footer  p-4 bg-dark ">
+            <div class="container ">
+                <div class="row justify-content-between">
+                    <div class="col-md-6 ">
+                        <div class="box">
+                            <form class="text-end d-flex">
+                                <input type="text" id="inputsearch"class="form-control border-0 form-control-lg rounded-pill inp text-white bg-dark s" placeholder="Find your location">
+                                <button type="button" class="btn bttn p-2 px-4  rounded-pill bg-info ms-3">Find</button>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <!-- icons -->
+                    <div class="col-md-4  mt-3 ms-2">
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/ahmd.ahmdslah"><i class="fa-brands fa-facebook fs-3"></i></a>
+                            <a href="https://twitter.com/M27481301"><i class="fa-brands fa-twitter fs-3"></i></a>
+                            <a href="https://twitter.com/M27481301"><i class="fa-regular fa-paper-plane fs-3"></i></a>
+                            <a href="#"><i class="fa-brands fa-pinterest fs-3"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <p class="colophon text-white mt-4">Copyright 2023 . Designed by <span >Ahmed Salah</span> . All rights reserved</p>
+            </div>
+        </footer>
+        <!-- ent footer -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
